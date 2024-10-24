@@ -3,7 +3,7 @@ import 'todo_service.dart';
 import 'todo.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -103,7 +103,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Danh sách công việc'),
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: Colors.orange,
         actions: [
           IconButton(
             icon: const Icon(Icons.add),
